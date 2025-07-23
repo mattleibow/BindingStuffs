@@ -1,0 +1,331 @@
+classes.jar -> java.base
+classes.jar -> not found
+   androidx.car.app                                   -> android                                            not found
+   androidx.car.app                                   -> android.app                                        not found
+   androidx.car.app                                   -> android.content                                    not found
+   androidx.car.app                                   -> android.content.pm                                 not found
+   androidx.car.app                                   -> android.content.res                                not found
+   androidx.car.app                                   -> android.graphics                                   not found
+   androidx.car.app                                   -> android.hardware.display                           not found
+   androidx.car.app                                   -> android.location                                   not found
+   androidx.car.app                                   -> android.net                                        not found
+   androidx.car.app                                   -> android.os                                         not found
+   androidx.car.app                                   -> android.text                                       not found
+   androidx.car.app                                   -> android.util                                       not found
+   androidx.car.app                                   -> android.view                                       not found
+   androidx.car.app                                   -> androidx.activity                                  not found
+   androidx.car.app                                   -> androidx.activity.result                           not found
+   androidx.car.app                                   -> androidx.activity.result.contract                  not found
+   androidx.car.app                                   -> androidx.annotation                                not found
+   androidx.car.app                                   -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app                                   -> androidx.car.app.constraints                       classes.jar
+   androidx.car.app                                   -> androidx.car.app.hardware                          classes.jar
+   androidx.car.app                                   -> androidx.car.app.managers                          classes.jar
+   androidx.car.app                                   -> androidx.car.app.media                             classes.jar
+   androidx.car.app                                   -> androidx.car.app.model                             classes.jar
+   androidx.car.app                                   -> androidx.car.app.navigation                        classes.jar
+   androidx.car.app                                   -> androidx.car.app.navigation.model                  classes.jar
+   androidx.car.app                                   -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app                                   -> androidx.car.app.suggestion                        classes.jar
+   androidx.car.app                                   -> androidx.car.app.utils                             classes.jar
+   androidx.car.app                                   -> androidx.car.app.validation                        classes.jar
+   androidx.car.app                                   -> androidx.car.app.versioning                        classes.jar
+   androidx.car.app                                   -> androidx.core.content                              not found
+   androidx.car.app                                   -> androidx.core.location                             not found
+   androidx.car.app                                   -> androidx.lifecycle                                 not found
+   androidx.car.app                                   -> com.google.common.collect                          not found
+   androidx.car.app                                   -> java.io                                            java.base
+   androidx.car.app                                   -> java.lang                                          java.base
+   androidx.car.app                                   -> java.lang.annotation                               java.base
+   androidx.car.app                                   -> java.lang.invoke                                   java.base
+   androidx.car.app                                   -> java.security                                      java.base
+   androidx.car.app                                   -> java.util                                          java.base
+   androidx.car.app                                   -> java.util.concurrent                               java.base
+   androidx.car.app.annotations                       -> androidx.annotation                                not found
+   androidx.car.app.annotations                       -> java.lang                                          java.base
+   androidx.car.app.annotations                       -> java.lang.annotation                               java.base
+   androidx.car.app.connection                        -> android.content                                    not found
+   androidx.car.app.connection                        -> android.database                                   not found
+   androidx.car.app.connection                        -> android.net                                        not found
+   androidx.car.app.connection                        -> android.os                                         not found
+   androidx.car.app.connection                        -> android.util                                       not found
+   androidx.car.app.connection                        -> androidx.annotation                                not found
+   androidx.car.app.connection                        -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.connection                        -> androidx.lifecycle                                 not found
+   androidx.car.app.connection                        -> java.lang                                          java.base
+   androidx.car.app.connection                        -> java.lang.annotation                               java.base
+   androidx.car.app.connection                        -> java.util                                          java.base
+   androidx.car.app.constraints                       -> android.content.res                                not found
+   androidx.car.app.constraints                       -> android.os                                         not found
+   androidx.car.app.constraints                       -> android.util                                       not found
+   androidx.car.app.constraints                       -> androidx.annotation                                not found
+   androidx.car.app.constraints                       -> androidx.car.app                                   classes.jar
+   androidx.car.app.constraints                       -> androidx.car.app                                   not found
+   androidx.car.app.constraints                       -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.constraints                       -> androidx.car.app.managers                          classes.jar
+   androidx.car.app.constraints                       -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.constraints                       -> java.lang                                          java.base
+   androidx.car.app.constraints                       -> java.lang.annotation                               java.base
+   androidx.car.app.constraints                       -> java.lang.invoke                                   java.base
+   androidx.car.app.constraints                       -> java.util                                          java.base
+   androidx.car.app.features                          -> android.content                                    not found
+   androidx.car.app.features                          -> android.content.pm                                 not found
+   androidx.car.app.features                          -> androidx.annotation                                not found
+   androidx.car.app.features                          -> java.lang                                          java.base
+   androidx.car.app.features                          -> java.lang.annotation                               java.base
+   androidx.car.app.hardware                          -> android.content                                    not found
+   androidx.car.app.hardware                          -> android.content.pm                                 not found
+   androidx.car.app.hardware                          -> android.os                                         not found
+   androidx.car.app.hardware                          -> androidx.annotation                                not found
+   androidx.car.app.hardware                          -> androidx.car.app                                   classes.jar
+   androidx.car.app.hardware                          -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.hardware                          -> androidx.car.app.hardware.climate                  classes.jar
+   androidx.car.app.hardware                          -> androidx.car.app.hardware.info                     classes.jar
+   androidx.car.app.hardware                          -> androidx.car.app.managers                          classes.jar
+   androidx.car.app.hardware                          -> androidx.car.app.versioning                        classes.jar
+   androidx.car.app.hardware                          -> java.lang                                          java.base
+   androidx.car.app.hardware                          -> java.lang.reflect                                  java.base
+   androidx.car.app.hardware.climate                  -> android.util                                       not found
+   androidx.car.app.hardware.climate                  -> androidx.annotation                                not found
+   androidx.car.app.hardware.climate                  -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.hardware.climate                  -> androidx.car.app.hardware.common                   classes.jar
+   androidx.car.app.hardware.climate                  -> com.google.common.collect                          not found
+   androidx.car.app.hardware.climate                  -> java.lang                                          java.base
+   androidx.car.app.hardware.climate                  -> java.lang.annotation                               java.base
+   androidx.car.app.hardware.climate                  -> java.util                                          java.base
+   androidx.car.app.hardware.climate                  -> java.util.concurrent                               java.base
+   androidx.car.app.hardware.common                   -> androidx.annotation                                not found
+   androidx.car.app.hardware.common                   -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.hardware.common                   -> java.lang                                          java.base
+   androidx.car.app.hardware.common                   -> java.lang.annotation                               java.base
+   androidx.car.app.hardware.common                   -> java.util                                          java.base
+   androidx.car.app.hardware.info                     -> android.location                                   not found
+   androidx.car.app.hardware.info                     -> androidx.annotation                                not found
+   androidx.car.app.hardware.info                     -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.hardware.info                     -> androidx.car.app.hardware.common                   classes.jar
+   androidx.car.app.hardware.info                     -> java.lang                                          java.base
+   androidx.car.app.hardware.info                     -> java.lang.annotation                               java.base
+   androidx.car.app.hardware.info                     -> java.util                                          java.base
+   androidx.car.app.hardware.info                     -> java.util.concurrent                               java.base
+   androidx.car.app.managers                          -> android.content                                    not found
+   androidx.car.app.managers                          -> android.content.pm                                 not found
+   androidx.car.app.managers                          -> android.os                                         not found
+   androidx.car.app.managers                          -> androidx.annotation                                not found
+   androidx.car.app.managers                          -> androidx.car.app                                   classes.jar
+   androidx.car.app.managers                          -> java.lang                                          java.base
+   androidx.car.app.managers                          -> java.lang.reflect                                  java.base
+   androidx.car.app.managers                          -> java.util                                          java.base
+   androidx.car.app.media                             -> android.content                                    not found
+   androidx.car.app.media                             -> android.os                                         not found
+   androidx.car.app.media                             -> android.support.v4.media.session                   not found
+   androidx.car.app.media                             -> android.util                                       not found
+   androidx.car.app.media                             -> androidx.annotation                                not found
+   androidx.car.app.media                             -> androidx.car.app                                   classes.jar
+   androidx.car.app.media                             -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.media                             -> androidx.car.app.managers                          classes.jar
+   androidx.car.app.media                             -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.media                             -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.media                             -> androidx.lifecycle                                 not found
+   androidx.car.app.media                             -> java.io                                            java.base
+   androidx.car.app.media                             -> java.lang                                          java.base
+   androidx.car.app.media                             -> java.lang.invoke                                   java.base
+   androidx.car.app.media                             -> java.lang.reflect                                  java.base
+   androidx.car.app.media                             -> java.util                                          java.base
+   androidx.car.app.media.model                       -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.media.model                       -> androidx.car.app.model                             classes.jar
+   androidx.car.app.media.model                       -> java.lang                                          java.base
+   androidx.car.app.media.model                       -> java.util                                          java.base
+   androidx.car.app.mediaextensions                   -> java.lang                                          java.base
+   androidx.car.app.mediaextensions.analytics         -> android.os                                         not found
+   androidx.car.app.mediaextensions.analytics         -> androidx.annotation                                not found
+   androidx.car.app.mediaextensions.analytics         -> java.lang                                          java.base
+   androidx.car.app.mediaextensions.analytics         -> java.util.concurrent                               java.base
+   androidx.car.app.mediaextensions.analytics.client  -> android.os                                         not found
+   androidx.car.app.mediaextensions.analytics.client  -> android.text                                       not found
+   androidx.car.app.mediaextensions.analytics.client  -> android.util                                       not found
+   androidx.car.app.mediaextensions.analytics.client  -> androidx.annotation                                not found
+   androidx.car.app.mediaextensions.analytics.client  -> androidx.car.app.mediaextensions.analytics         classes.jar
+   androidx.car.app.mediaextensions.analytics.client  -> androidx.car.app.mediaextensions.analytics.event   classes.jar
+   androidx.car.app.mediaextensions.analytics.client  -> java.lang                                          java.base
+   androidx.car.app.mediaextensions.analytics.client  -> java.lang.invoke                                   java.base
+   androidx.car.app.mediaextensions.analytics.client  -> java.util                                          java.base
+   androidx.car.app.mediaextensions.analytics.client  -> java.util.concurrent                               java.base
+   androidx.car.app.mediaextensions.analytics.event   -> android.os                                         not found
+   androidx.car.app.mediaextensions.analytics.event   -> androidx.annotation                                not found
+   androidx.car.app.mediaextensions.analytics.event   -> androidx.car.app.mediaextensions.analytics         classes.jar
+   androidx.car.app.mediaextensions.analytics.event   -> java.lang                                          java.base
+   androidx.car.app.mediaextensions.analytics.event   -> java.lang.annotation                               java.base
+   androidx.car.app.mediaextensions.analytics.event   -> java.util                                          java.base
+   androidx.car.app.messaging                         -> java.lang                                          java.base
+   androidx.car.app.messaging.model                   -> android.net                                        not found
+   androidx.car.app.messaging.model                   -> android.os                                         not found
+   androidx.car.app.messaging.model                   -> androidx.annotation                                not found
+   androidx.car.app.messaging.model                   -> androidx.car.app                                   classes.jar
+   androidx.car.app.messaging.model                   -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.messaging.model                   -> androidx.car.app.model                             classes.jar
+   androidx.car.app.messaging.model                   -> androidx.car.app.model.constraints                 classes.jar
+   androidx.car.app.messaging.model                   -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.messaging.model                   -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.messaging.model                   -> androidx.core.app                                  not found
+   androidx.car.app.messaging.model                   -> androidx.core.util                                 not found
+   androidx.car.app.messaging.model                   -> java.lang                                          java.base
+   androidx.car.app.messaging.model                   -> java.lang.invoke                                   java.base
+   androidx.car.app.messaging.model                   -> java.util                                          java.base
+   androidx.car.app.messaging.model                   -> kotlin                                             not found
+   androidx.car.app.messaging.model                   -> kotlin.jvm                                         not found
+   androidx.car.app.messaging.model                   -> kotlin.jvm.internal                                not found
+   androidx.car.app.model                             -> android.location                                   not found
+   androidx.car.app.model                             -> android.net                                        not found
+   androidx.car.app.model                             -> android.os                                         not found
+   androidx.car.app.model                             -> android.text                                       not found
+   androidx.car.app.model                             -> android.text.style                                 not found
+   androidx.car.app.model                             -> android.util                                       not found
+   androidx.car.app.model                             -> androidx.annotation                                not found
+   androidx.car.app.model                             -> androidx.car.app                                   classes.jar
+   androidx.car.app.model                             -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.model                             -> androidx.car.app.messaging.model                   classes.jar
+   androidx.car.app.model                             -> androidx.car.app.model.constraints                 classes.jar
+   androidx.car.app.model                             -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.model                             -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.model                             -> androidx.core.graphics.drawable                    not found
+   androidx.car.app.model                             -> java.lang                                          java.base
+   androidx.car.app.model                             -> java.lang.annotation                               java.base
+   androidx.car.app.model                             -> java.lang.invoke                                   java.base
+   androidx.car.app.model                             -> java.time                                          java.base
+   androidx.car.app.model                             -> java.time.format                                   java.base
+   androidx.car.app.model                             -> java.time.zone                                     java.base
+   androidx.car.app.model                             -> java.util                                          java.base
+   androidx.car.app.model                             -> java.util.concurrent                               java.base
+   androidx.car.app.model.constraints                 -> android.content                                    not found
+   androidx.car.app.model.constraints                 -> android.net                                        not found
+   androidx.car.app.model.constraints                 -> androidx.annotation                                not found
+   androidx.car.app.model.constraints                 -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.model.constraints                 -> androidx.car.app.messaging.model                   classes.jar
+   androidx.car.app.model.constraints                 -> androidx.car.app.model                             classes.jar
+   androidx.car.app.model.constraints                 -> androidx.car.app.navigation.model                  classes.jar
+   androidx.car.app.model.constraints                 -> androidx.core.graphics.drawable                    not found
+   androidx.car.app.model.constraints                 -> java.lang                                          java.base
+   androidx.car.app.model.constraints                 -> java.util                                          java.base
+   androidx.car.app.model.signin                      -> android.net                                        not found
+   androidx.car.app.model.signin                      -> androidx.annotation                                not found
+   androidx.car.app.model.signin                      -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.model.signin                      -> androidx.car.app.model                             classes.jar
+   androidx.car.app.model.signin                      -> androidx.car.app.model.constraints                 classes.jar
+   androidx.car.app.model.signin                      -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.model.signin                      -> java.lang                                          java.base
+   androidx.car.app.model.signin                      -> java.lang.annotation                               java.base
+   androidx.car.app.model.signin                      -> java.util                                          java.base
+   androidx.car.app.navigation                        -> android.content                                    not found
+   androidx.car.app.navigation                        -> android.os                                         not found
+   androidx.car.app.navigation                        -> android.util                                       not found
+   androidx.car.app.navigation                        -> androidx.annotation                                not found
+   androidx.car.app.navigation                        -> androidx.car.app                                   classes.jar
+   androidx.car.app.navigation                        -> androidx.car.app.managers                          classes.jar
+   androidx.car.app.navigation                        -> androidx.car.app.navigation.model                  classes.jar
+   androidx.car.app.navigation                        -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.navigation                        -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.navigation                        -> androidx.core.content                              not found
+   androidx.car.app.navigation                        -> androidx.lifecycle                                 not found
+   androidx.car.app.navigation                        -> java.lang                                          java.base
+   androidx.car.app.navigation                        -> java.lang.invoke                                   java.base
+   androidx.car.app.navigation                        -> java.util                                          java.base
+   androidx.car.app.navigation                        -> java.util.concurrent                               java.base
+   androidx.car.app.navigation.model                  -> android.os                                         not found
+   androidx.car.app.navigation.model                  -> androidx.annotation                                not found
+   androidx.car.app.navigation.model                  -> androidx.car.app                                   classes.jar
+   androidx.car.app.navigation.model                  -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.navigation.model                  -> androidx.car.app.model                             classes.jar
+   androidx.car.app.navigation.model                  -> androidx.car.app.model.constraints                 classes.jar
+   androidx.car.app.navigation.model                  -> androidx.car.app.navigation.model.constraints      classes.jar
+   androidx.car.app.navigation.model                  -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.navigation.model                  -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.navigation.model                  -> java.lang                                          java.base
+   androidx.car.app.navigation.model                  -> java.lang.annotation                               java.base
+   androidx.car.app.navigation.model                  -> java.lang.invoke                                   java.base
+   androidx.car.app.navigation.model                  -> java.time                                          java.base
+   androidx.car.app.navigation.model                  -> java.util                                          java.base
+   androidx.car.app.navigation.model.constraints      -> androidx.annotation                                not found
+   androidx.car.app.navigation.model.constraints      -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.navigation.model.constraints      -> androidx.car.app.model                             classes.jar
+   androidx.car.app.navigation.model.constraints      -> com.google.common.collect                          not found
+   androidx.car.app.navigation.model.constraints      -> java.lang                                          java.base
+   androidx.car.app.notification                      -> android.app                                        not found
+   androidx.car.app.notification                      -> android.content                                    not found
+   androidx.car.app.notification                      -> android.content.pm                                 not found
+   androidx.car.app.notification                      -> android.content.res                                not found
+   androidx.car.app.notification                      -> android.graphics                                   not found
+   androidx.car.app.notification                      -> android.graphics.drawable                          not found
+   androidx.car.app.notification                      -> android.net                                        not found
+   androidx.car.app.notification                      -> android.os                                         not found
+   androidx.car.app.notification                      -> android.util                                       not found
+   androidx.car.app.notification                      -> androidx.annotation                                not found
+   androidx.car.app.notification                      -> androidx.car.app                                   not found
+   androidx.car.app.notification                      -> androidx.car.app                                   classes.jar
+   androidx.car.app.notification                      -> androidx.car.app.model                             classes.jar
+   androidx.car.app.notification                      -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.notification                      -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.notification                      -> androidx.core.app                                  not found
+   androidx.car.app.notification                      -> java.lang                                          java.base
+   androidx.car.app.notification                      -> java.lang.invoke                                   java.base
+   androidx.car.app.notification                      -> java.security                                      java.base
+   androidx.car.app.notification                      -> java.util                                          java.base
+   androidx.car.app.serialization                     -> android.os                                         not found
+   androidx.car.app.serialization                     -> android.util                                       not found
+   androidx.car.app.serialization                     -> androidx.annotation                                not found
+   androidx.car.app.serialization                     -> androidx.car.app                                   classes.jar
+   androidx.car.app.serialization                     -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.serialization                     -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.serialization                     -> androidx.core.app                                  not found
+   androidx.car.app.serialization                     -> androidx.core.graphics.drawable                    not found
+   androidx.car.app.serialization                     -> java.lang                                          java.base
+   androidx.car.app.serialization                     -> java.lang.invoke                                   java.base
+   androidx.car.app.serialization                     -> java.lang.reflect                                  java.base
+   androidx.car.app.serialization                     -> java.util                                          java.base
+   androidx.car.app.serialization                     -> kotlin                                             not found
+   androidx.car.app.serialization                     -> kotlin.jvm.internal                                not found
+   androidx.car.app.suggestion                        -> android.os                                         not found
+   androidx.car.app.suggestion                        -> androidx.annotation                                not found
+   androidx.car.app.suggestion                        -> androidx.car.app                                   classes.jar
+   androidx.car.app.suggestion                        -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.suggestion                        -> androidx.car.app.managers                          classes.jar
+   androidx.car.app.suggestion                        -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.suggestion                        -> androidx.car.app.suggestion.model                  classes.jar
+   androidx.car.app.suggestion                        -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.suggestion                        -> androidx.lifecycle                                 not found
+   androidx.car.app.suggestion                        -> java.lang                                          java.base
+   androidx.car.app.suggestion                        -> java.lang.invoke                                   java.base
+   androidx.car.app.suggestion                        -> java.util                                          java.base
+   androidx.car.app.suggestion.model                  -> android.app                                        not found
+   androidx.car.app.suggestion.model                  -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.suggestion.model                  -> androidx.car.app.model                             classes.jar
+   androidx.car.app.suggestion.model                  -> androidx.car.app.model.constraints                 classes.jar
+   androidx.car.app.suggestion.model                  -> java.lang                                          java.base
+   androidx.car.app.suggestion.model                  -> java.util                                          java.base
+   androidx.car.app.utils                             -> android.content                                    not found
+   androidx.car.app.utils                             -> android.content.pm                                 not found
+   androidx.car.app.utils                             -> android.graphics                                   not found
+   androidx.car.app.utils                             -> android.os                                         not found
+   androidx.car.app.utils                             -> android.util                                       not found
+   androidx.car.app.utils                             -> androidx.annotation                                not found
+   androidx.car.app.utils                             -> androidx.car.app                                   classes.jar
+   androidx.car.app.utils                             -> androidx.car.app.annotations                       classes.jar
+   androidx.car.app.utils                             -> androidx.car.app.serialization                     classes.jar
+   androidx.car.app.utils                             -> androidx.lifecycle                                 not found
+   androidx.car.app.utils                             -> java.lang                                          java.base
+   androidx.car.app.utils                             -> java.lang.invoke                                   java.base
+   androidx.car.app.utils                             -> java.util                                          java.base
+   androidx.car.app.validation                        -> android.content                                    not found
+   androidx.car.app.validation                        -> android.content.pm                                 not found
+   androidx.car.app.validation                        -> android.content.res                                not found
+   androidx.car.app.validation                        -> android.os                                         not found
+   androidx.car.app.validation                        -> android.util                                       not found
+   androidx.car.app.validation                        -> androidx.car.app                                   classes.jar
+   androidx.car.app.validation                        -> androidx.car.app.utils                             classes.jar
+   androidx.car.app.validation                        -> java.lang                                          java.base
+   androidx.car.app.validation                        -> java.security                                      java.base
+   androidx.car.app.validation                        -> java.util                                          java.base
+   androidx.car.app.versioning                        -> androidx.annotation                                not found
+   androidx.car.app.versioning                        -> java.io                                            java.base
+   androidx.car.app.versioning                        -> java.lang                                          java.base
+   androidx.car.app.versioning                        -> java.lang.annotation                               java.base
+   androidx.car.app.versioning                        -> java.util                                          java.base
