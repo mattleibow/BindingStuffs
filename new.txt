@@ -1,0 +1,607 @@
+Classfile /Users/matthew/Documents/GitHub/Testing/BindingStuffs/NewVersion/obj/Debug/net10.0-android/library_project_classes/androidx/car/app/AppManager.class
+  Last modified Jan 1, 1981; size 9482 bytes
+  SHA-256 checksum eed0bd0b7c6809c377a2ae61ab26ca47f0cf39dd2a5557a91b22aa4b353536df
+  Compiled from "AppManager.java"
+public class androidx.car.app.AppManager implements androidx.car.app.managers.Manager
+  minor version: 0
+  major version: 52
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #4                          // androidx/car/app/AppManager
+  super_class: #145                       // java/lang/Object
+  interfaces: 1, fields: 8, methods: 20, attributes: 3
+Constant pool:
+    #1 = Class              #2            // androidx/car/app/utils/LogTags
+    #2 = Utf8               androidx/car/app/utils/LogTags
+    #3 = Fieldref           #4.#5         // androidx/car/app/AppManager.mHostDispatcher:Landroidx/car/app/HostDispatcher;
+    #4 = Class              #6            // androidx/car/app/AppManager
+    #5 = NameAndType        #7:#8         // mHostDispatcher:Landroidx/car/app/HostDispatcher;
+    #6 = Utf8               androidx/car/app/AppManager
+    #7 = Utf8               mHostDispatcher
+    #8 = Utf8               Landroidx/car/app/HostDispatcher;
+    #9 = Class              #10           // androidx/car/app/CarContext
+   #10 = Utf8               androidx/car/app/CarContext
+   #11 = String             #12           // app
+   #12 = Utf8               app
+   #13 = String             #14           // setSurfaceListener
+   #14 = Utf8               setSurfaceListener
+   #15 = InvokeDynamic      #0:#16        // #0:dispatch:(Landroidx/car/app/AppManager;Landroidx/car/app/SurfaceCallback;)Landroidx/car/app/HostCall;
+   #16 = NameAndType        #17:#18       // dispatch:(Landroidx/car/app/AppManager;Landroidx/car/app/SurfaceCallback;)Landroidx/car/app/HostCall;
+   #17 = Utf8               dispatch
+   #18 = Utf8               (Landroidx/car/app/AppManager;Landroidx/car/app/SurfaceCallback;)Landroidx/car/app/HostCall;
+   #19 = Methodref          #20.#21       // androidx/car/app/HostDispatcher.dispatch:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+   #20 = Class              #22           // androidx/car/app/HostDispatcher
+   #21 = NameAndType        #17:#23       // dispatch:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+   #22 = Utf8               androidx/car/app/HostDispatcher
+   #23 = Utf8               (Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+   #24 = String             #25           // invalidate
+   #25 = Utf8               invalidate
+   #26 = InvokeDynamic      #1:#27        // #1:dispatch:()Landroidx/car/app/HostCall;
+   #27 = NameAndType        #17:#28       // dispatch:()Landroidx/car/app/HostCall;
+   #28 = Utf8               ()Landroidx/car/app/HostCall;
+   #29 = Methodref          #30.#31       // java/util/Objects.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+   #30 = Class              #32           // java/util/Objects
+   #31 = NameAndType        #33:#34       // requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+   #32 = Utf8               java/util/Objects
+   #33 = Utf8               requireNonNull
+   #34 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+   #35 = String             #36           // showToast
+   #36 = Utf8               showToast
+   #37 = InvokeDynamic      #2:#38        // #2:dispatch:(Ljava/lang/CharSequence;I)Landroidx/car/app/HostCall;
+   #38 = NameAndType        #17:#39       // dispatch:(Ljava/lang/CharSequence;I)Landroidx/car/app/HostCall;
+   #39 = Utf8               (Ljava/lang/CharSequence;I)Landroidx/car/app/HostCall;
+   #40 = Methodref          #41.#42       // androidx/car/app/serialization/Bundleable.create:(Ljava/lang/Object;)Landroidx/car/app/serialization/Bundleable;
+   #41 = Class              #43           // androidx/car/app/serialization/Bundleable
+   #42 = NameAndType        #44:#45       // create:(Ljava/lang/Object;)Landroidx/car/app/serialization/Bundleable;
+   #43 = Utf8               androidx/car/app/serialization/Bundleable
+   #44 = Utf8               create
+   #45 = Utf8               (Ljava/lang/Object;)Landroidx/car/app/serialization/Bundleable;
+   #46 = Class              #47           // androidx/car/app/serialization/BundlerException
+   #47 = Utf8               androidx/car/app/serialization/BundlerException
+   #48 = Class              #49           // java/lang/IllegalArgumentException
+   #49 = Utf8               java/lang/IllegalArgumentException
+   #50 = String             #51           // Serialization failure
+   #51 = Utf8               Serialization failure
+   #52 = Methodref          #48.#53       // java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;Ljava/lang/Throwable;)V
+   #53 = NameAndType        #54:#55       // "<init>":(Ljava/lang/String;Ljava/lang/Throwable;)V
+   #54 = Utf8               <init>
+   #55 = Utf8               (Ljava/lang/String;Ljava/lang/Throwable;)V
+   #56 = String             #57           // showAlert
+   #57 = Utf8               showAlert
+   #58 = InvokeDynamic      #3:#59        // #3:dispatch:(Landroidx/car/app/serialization/Bundleable;)Landroidx/car/app/HostCall;
+   #59 = NameAndType        #17:#60       // dispatch:(Landroidx/car/app/serialization/Bundleable;)Landroidx/car/app/HostCall;
+   #60 = Utf8               (Landroidx/car/app/serialization/Bundleable;)Landroidx/car/app/HostCall;
+   #61 = String             #62           // dismissAlert
+   #62 = Utf8               dismissAlert
+   #63 = InvokeDynamic      #4:#64        // #4:dispatch:(I)Landroidx/car/app/HostCall;
+   #64 = NameAndType        #17:#65       // dispatch:(I)Landroidx/car/app/HostCall;
+   #65 = Utf8               (I)Landroidx/car/app/HostCall;
+   #66 = String             #67           // openMicrophone
+   #67 = Utf8               openMicrophone
+   #68 = InvokeDynamic      #5:#69        // #5:dispatch:(Landroidx/car/app/media/OpenMicrophoneRequest;)Landroidx/car/app/HostCall;
+   #69 = NameAndType        #17:#70       // dispatch:(Landroidx/car/app/media/OpenMicrophoneRequest;)Landroidx/car/app/HostCall;
+   #70 = Utf8               (Landroidx/car/app/media/OpenMicrophoneRequest;)Landroidx/car/app/HostCall;
+   #71 = Methodref          #20.#72       // androidx/car/app/HostDispatcher.dispatchForResult:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)Ljava/lang/Object;
+   #72 = NameAndType        #73:#74       // dispatchForResult:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)Ljava/lang/Object;
+   #73 = Utf8               dispatchForResult
+   #74 = Utf8               (Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)Ljava/lang/Object;
+   #75 = Class              #76           // androidx/car/app/media/OpenMicrophoneResponse
+   #76 = Utf8               androidx/car/app/media/OpenMicrophoneResponse
+   #77 = Class              #78           // android/os/RemoteException
+   #78 = Utf8               android/os/RemoteException
+   #79 = String             #80           // CarApp
+   #80 = Utf8               CarApp
+   #81 = String             #82           // Error getting microphone bytes from host
+   #82 = Utf8               Error getting microphone bytes from host
+   #83 = Methodref          #84.#85       // android/util/Log.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+   #84 = Class              #86           // android/util/Log
+   #85 = NameAndType        #87:#88       // e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+   #86 = Utf8               android/util/Log
+   #87 = Utf8               e
+   #88 = Utf8               (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+   #89 = Fieldref           #4.#90        // androidx/car/app/AppManager.mAppManager:Landroidx/car/app/IAppManager$Stub;
+   #90 = NameAndType        #91:#92       // mAppManager:Landroidx/car/app/IAppManager$Stub;
+   #91 = Utf8               mAppManager
+   #92 = Utf8               Landroidx/car/app/IAppManager$Stub;
+   #93 = Fieldref           #4.#94        // androidx/car/app/AppManager.mLifecycle:Landroidx/lifecycle/Lifecycle;
+   #94 = NameAndType        #95:#96       // mLifecycle:Landroidx/lifecycle/Lifecycle;
+   #95 = Utf8               mLifecycle
+   #96 = Utf8               Landroidx/lifecycle/Lifecycle;
+   #97 = Methodref          #4.#98        // androidx/car/app/AppManager.stopLocationUpdates:()V
+   #98 = NameAndType        #99:#100      // stopLocationUpdates:()V
+   #99 = Utf8               stopLocationUpdates
+  #100 = Utf8               ()V
+  #101 = Fieldref           #4.#102       // androidx/car/app/AppManager.mCarContext:Landroidx/car/app/CarContext;
+  #102 = NameAndType        #103:#104     // mCarContext:Landroidx/car/app/CarContext;
+  #103 = Utf8               mCarContext
+  #104 = Utf8               Landroidx/car/app/CarContext;
+  #105 = Class              #106          // android/content/Context
+  #106 = Utf8               android/content/Context
+  #107 = String             #108          // location
+  #108 = Utf8               location
+  #109 = Methodref          #9.#110       // androidx/car/app/CarContext.getSystemService:(Ljava/lang/String;)Ljava/lang/Object;
+  #110 = NameAndType        #111:#112     // getSystemService:(Ljava/lang/String;)Ljava/lang/Object;
+  #111 = Utf8               getSystemService
+  #112 = Utf8               (Ljava/lang/String;)Ljava/lang/Object;
+  #113 = Class              #114          // android/location/LocationManager
+  #114 = Utf8               android/location/LocationManager
+  #115 = String             #116          // fused
+  #116 = Utf8               fused
+  #117 = Long               1000l
+  #119 = Fieldref           #4.#120       // androidx/car/app/AppManager.mLocationListener:Landroidx/core/location/LocationListenerCompat;
+  #120 = NameAndType        #121:#122     // mLocationListener:Landroidx/core/location/LocationListenerCompat;
+  #121 = Utf8               mLocationListener
+  #122 = Utf8               Landroidx/core/location/LocationListenerCompat;
+  #123 = Fieldref           #4.#124       // androidx/car/app/AppManager.mLocationUpdateHandlerThread:Landroid/os/HandlerThread;
+  #124 = NameAndType        #125:#126     // mLocationUpdateHandlerThread:Landroid/os/HandlerThread;
+  #125 = Utf8               mLocationUpdateHandlerThread
+  #126 = Utf8               Landroid/os/HandlerThread;
+  #127 = Methodref          #128.#129     // android/os/HandlerThread.getLooper:()Landroid/os/Looper;
+  #128 = Class              #130          // android/os/HandlerThread
+  #129 = NameAndType        #131:#132     // getLooper:()Landroid/os/Looper;
+  #130 = Utf8               android/os/HandlerThread
+  #131 = Utf8               getLooper
+  #132 = Utf8               ()Landroid/os/Looper;
+  #133 = Methodref          #113.#134     // android/location/LocationManager.requestLocationUpdates:(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+  #134 = NameAndType        #135:#136     // requestLocationUpdates:(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+  #135 = Utf8               requestLocationUpdates
+  #136 = Utf8               (Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+  #137 = Methodref          #113.#138     // android/location/LocationManager.removeUpdates:(Landroid/location/LocationListener;)V
+  #138 = NameAndType        #139:#140     // removeUpdates:(Landroid/location/LocationListener;)V
+  #139 = Utf8               removeUpdates
+  #140 = Utf8               (Landroid/location/LocationListener;)V
+  #141 = Methodref          #4.#142       // androidx/car/app/AppManager."<init>":(Landroidx/car/app/CarContext;Landroidx/car/app/HostDispatcher;Landroidx/lifecycle/Lifecycle;)V
+  #142 = NameAndType        #54:#143      // "<init>":(Landroidx/car/app/CarContext;Landroidx/car/app/HostDispatcher;Landroidx/lifecycle/Lifecycle;)V
+  #143 = Utf8               (Landroidx/car/app/CarContext;Landroidx/car/app/HostDispatcher;Landroidx/lifecycle/Lifecycle;)V
+  #144 = Methodref          #145.#146     // java/lang/Object."<init>":()V
+  #145 = Class              #147          // java/lang/Object
+  #146 = NameAndType        #54:#100      // "<init>":()V
+  #147 = Utf8               java/lang/Object
+  #148 = Class              #149          // androidx/car/app/AppManager$1
+  #149 = Utf8               androidx/car/app/AppManager$1
+  #150 = Methodref          #148.#151     // androidx/car/app/AppManager$1."<init>":(Landroidx/car/app/AppManager;Landroidx/car/app/CarContext;)V
+  #151 = NameAndType        #54:#152      // "<init>":(Landroidx/car/app/AppManager;Landroidx/car/app/CarContext;)V
+  #152 = Utf8               (Landroidx/car/app/AppManager;Landroidx/car/app/CarContext;)V
+  #153 = String             #154          // LocationUpdateThread
+  #154 = Utf8               LocationUpdateThread
+  #155 = Methodref          #128.#156     // android/os/HandlerThread."<init>":(Ljava/lang/String;)V
+  #156 = NameAndType        #54:#157      // "<init>":(Ljava/lang/String;)V
+  #157 = Utf8               (Ljava/lang/String;)V
+  #158 = InvokeDynamic      #6:#159       // #6:onLocationChanged:(Landroidx/car/app/AppManager;)Landroidx/core/location/LocationListenerCompat;
+  #159 = NameAndType        #160:#161     // onLocationChanged:(Landroidx/car/app/AppManager;)Landroidx/core/location/LocationListenerCompat;
+  #160 = Utf8               onLocationChanged
+  #161 = Utf8               (Landroidx/car/app/AppManager;)Landroidx/core/location/LocationListenerCompat;
+  #162 = String             #163          // sendLocation
+  #163 = Utf8               sendLocation
+  #164 = InvokeDynamic      #7:#165       // #7:dispatch:(Landroid/location/Location;)Landroidx/car/app/HostCall;
+  #165 = NameAndType        #17:#166      // dispatch:(Landroid/location/Location;)Landroidx/car/app/HostCall;
+  #166 = Utf8               (Landroid/location/Location;)Landroidx/car/app/HostCall;
+  #167 = InterfaceMethodref #168.#169     // androidx/car/app/IAppHost.sendLocation:(Landroid/location/Location;)V
+  #168 = Class              #170          // androidx/car/app/IAppHost
+  #169 = NameAndType        #163:#171     // sendLocation:(Landroid/location/Location;)V
+  #170 = Utf8               androidx/car/app/IAppHost
+  #171 = Utf8               (Landroid/location/Location;)V
+  #172 = InterfaceMethodref #168.#173     // androidx/car/app/IAppHost.openMicrophone:(Landroidx/car/app/serialization/Bundleable;)Landroidx/car/app/serialization/Bundleable;
+  #173 = NameAndType        #67:#174      // openMicrophone:(Landroidx/car/app/serialization/Bundleable;)Landroidx/car/app/serialization/Bundleable;
+  #174 = Utf8               (Landroidx/car/app/serialization/Bundleable;)Landroidx/car/app/serialization/Bundleable;
+  #175 = Methodref          #41.#176      // androidx/car/app/serialization/Bundleable.get:()Ljava/lang/Object;
+  #176 = NameAndType        #177:#178     // get:()Ljava/lang/Object;
+  #177 = Utf8               get
+  #178 = Utf8               ()Ljava/lang/Object;
+  #179 = String             #180          // Cannot open microphone
+  #180 = Utf8               Cannot open microphone
+  #181 = InterfaceMethodref #168.#182     // androidx/car/app/IAppHost.dismissAlert:(I)V
+  #182 = NameAndType        #62:#183      // dismissAlert:(I)V
+  #183 = Utf8               (I)V
+  #184 = InterfaceMethodref #168.#185     // androidx/car/app/IAppHost.showAlert:(Landroidx/car/app/serialization/Bundleable;)V
+  #185 = NameAndType        #57:#186      // showAlert:(Landroidx/car/app/serialization/Bundleable;)V
+  #186 = Utf8               (Landroidx/car/app/serialization/Bundleable;)V
+  #187 = InterfaceMethodref #168.#188     // androidx/car/app/IAppHost.showToast:(Ljava/lang/CharSequence;I)V
+  #188 = NameAndType        #36:#189      // showToast:(Ljava/lang/CharSequence;I)V
+  #189 = Utf8               (Ljava/lang/CharSequence;I)V
+  #190 = InterfaceMethodref #168.#191     // androidx/car/app/IAppHost.invalidate:()V
+  #191 = NameAndType        #25:#100      // invalidate:()V
+  #192 = Methodref          #193.#194     // androidx/car/app/utils/RemoteUtils.stubSurfaceCallback:(Landroidx/lifecycle/Lifecycle;Landroidx/car/app/SurfaceCallback;)Landroidx/car/app/ISurfaceCallback;
+  #193 = Class              #195          // androidx/car/app/utils/RemoteUtils
+  #194 = NameAndType        #196:#197     // stubSurfaceCallback:(Landroidx/lifecycle/Lifecycle;Landroidx/car/app/SurfaceCallback;)Landroidx/car/app/ISurfaceCallback;
+  #195 = Utf8               androidx/car/app/utils/RemoteUtils
+  #196 = Utf8               stubSurfaceCallback
+  #197 = Utf8               (Landroidx/lifecycle/Lifecycle;Landroidx/car/app/SurfaceCallback;)Landroidx/car/app/ISurfaceCallback;
+  #198 = InterfaceMethodref #168.#199     // androidx/car/app/IAppHost.setSurfaceCallback:(Landroidx/car/app/ISurfaceCallback;)V
+  #199 = NameAndType        #200:#201     // setSurfaceCallback:(Landroidx/car/app/ISurfaceCallback;)V
+  #200 = Utf8               setSurfaceCallback
+  #201 = Utf8               (Landroidx/car/app/ISurfaceCallback;)V
+  #202 = Class              #203          // androidx/car/app/managers/Manager
+  #203 = Utf8               androidx/car/app/managers/Manager
+  #204 = Utf8               LOCATION_UPDATE_MIN_INTERVAL_MILLIS
+  #205 = Utf8               I
+  #206 = Utf8               ConstantValue
+  #207 = Integer            1000
+  #208 = Utf8               LOCATION_UPDATE_MIN_DISTANCE_METER
+  #209 = Integer            1
+  #210 = Utf8               RuntimeVisibleTypeAnnotations
+  #211 = Utf8               Lorg/jspecify/annotations/NonNull;
+  #212 = Utf8               RuntimeInvisibleAnnotations
+  #213 = Utf8               Landroidx/annotation/VisibleForTesting;
+  #214 = Utf8               (Landroidx/car/app/SurfaceCallback;)V
+  #215 = Utf8               Code
+  #216 = Utf8               LineNumberTable
+  #217 = Utf8               LocalVariableTable
+  #218 = Utf8               this
+  #219 = Utf8               Landroidx/car/app/AppManager;
+  #220 = Utf8               surfaceCallback
+  #221 = Utf8               Landroidx/car/app/SurfaceCallback;
+  #222 = Utf8               Landroid/annotation/SuppressLint;
+  #223 = Utf8               value
+  #224 = Utf8               ExecutorRegistration
+  #225 = Utf8               Lorg/jspecify/annotations/Nullable;
+  #226 = Utf8               text
+  #227 = Utf8               Ljava/lang/CharSequence;
+  #228 = Utf8               duration
+  #229 = Utf8               (Landroidx/car/app/model/Alert;)V
+  #230 = Utf8               bundle
+  #231 = Utf8               Landroidx/car/app/serialization/Bundleable;
+  #232 = Utf8               Landroidx/car/app/serialization/BundlerException;
+  #233 = Utf8               alert
+  #234 = Utf8               Landroidx/car/app/model/Alert;
+  #235 = Utf8               StackMapTable
+  #236 = Utf8               RuntimeVisibleAnnotations
+  #237 = Utf8               Landroidx/car/app/annotations/RequiresCarApi;
+  #238 = Integer            5
+  #239 = Utf8               alertId
+  #240 = Utf8               (Landroidx/car/app/media/OpenMicrophoneRequest;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  #241 = Utf8               Landroid/os/RemoteException;
+  #242 = Utf8               request
+  #243 = Utf8               Landroidx/car/app/media/OpenMicrophoneRequest;
+  #244 = Utf8               Landroidx/annotation/RestrictTo;
+  #245 = Utf8               Landroidx/annotation/RestrictTo$Scope;
+  #246 = Utf8               LIBRARY_GROUP
+  #247 = Utf8               getIInterface
+  #248 = Utf8               ()Landroidx/car/app/IAppManager$Stub;
+  #249 = Utf8               getLifecycle
+  #250 = Utf8               ()Landroidx/lifecycle/Lifecycle;
+  #251 = Utf8               startLocationUpdates
+  #252 = Utf8               locationManager
+  #253 = Utf8               Landroid/location/LocationManager;
+  #254 = Utf8               MissingPermission
+  #255 = Utf8               (Landroidx/car/app/CarContext;Landroidx/car/app/HostDispatcher;Landroidx/lifecycle/Lifecycle;)Landroidx/car/app/AppManager;
+  #256 = Utf8               carContext
+  #257 = Utf8               hostDispatcher
+  #258 = Utf8               lifecycle
+  #259 = Utf8               lambda$new$7
+  #260 = Utf8               Landroid/location/Location;
+  #261 = Utf8               lambda$new$6
+  #262 = Utf8               (Landroid/location/Location;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #263 = Utf8               host
+  #264 = Utf8               Landroidx/car/app/IAppHost;
+  #265 = Utf8               Exceptions
+  #266 = Utf8               lambda$openMicrophone$5
+  #267 = Utf8               (Landroidx/car/app/media/OpenMicrophoneRequest;Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  #268 = Utf8               bundleable
+  #269 = Class              #270          // androidx/car/app/media/OpenMicrophoneRequest
+  #270 = Utf8               androidx/car/app/media/OpenMicrophoneRequest
+  #271 = Utf8               lambda$dismissAlert$4
+  #272 = Utf8               (ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #273 = Utf8               lambda$showAlert$3
+  #274 = Utf8               (Landroidx/car/app/serialization/Bundleable;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #275 = Utf8               lambda$showToast$2
+  #276 = Utf8               (Ljava/lang/CharSequence;ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #277 = Utf8               lambda$invalidate$1
+  #278 = Utf8               (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #279 = Utf8               lambda$setSurfaceCallback$0
+  #280 = Utf8               (Landroidx/car/app/SurfaceCallback;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #281 = Utf8               SourceFile
+  #282 = Utf8               AppManager.java
+  #283 = Utf8               BootstrapMethods
+  #284 = MethodType         #34           //  (Ljava/lang/Object;)Ljava/lang/Object;
+  #285 = MethodHandle       7:#286        // REF_invokeSpecial androidx/car/app/AppManager.lambda$setSurfaceCallback$0:(Landroidx/car/app/SurfaceCallback;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #286 = Methodref          #4.#287       // androidx/car/app/AppManager.lambda$setSurfaceCallback$0:(Landroidx/car/app/SurfaceCallback;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #287 = NameAndType        #279:#280     // lambda$setSurfaceCallback$0:(Landroidx/car/app/SurfaceCallback;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #288 = MethodType         #278          //  (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #289 = MethodHandle       6:#290        // REF_invokeStatic androidx/car/app/AppManager.lambda$invalidate$1:(Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #290 = Methodref          #4.#291       // androidx/car/app/AppManager.lambda$invalidate$1:(Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #291 = NameAndType        #277:#278     // lambda$invalidate$1:(Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #292 = MethodHandle       6:#293        // REF_invokeStatic androidx/car/app/AppManager.lambda$showToast$2:(Ljava/lang/CharSequence;ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #293 = Methodref          #4.#294       // androidx/car/app/AppManager.lambda$showToast$2:(Ljava/lang/CharSequence;ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #294 = NameAndType        #275:#276     // lambda$showToast$2:(Ljava/lang/CharSequence;ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #295 = MethodHandle       6:#296        // REF_invokeStatic androidx/car/app/AppManager.lambda$showAlert$3:(Landroidx/car/app/serialization/Bundleable;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #296 = Methodref          #4.#297       // androidx/car/app/AppManager.lambda$showAlert$3:(Landroidx/car/app/serialization/Bundleable;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #297 = NameAndType        #273:#274     // lambda$showAlert$3:(Landroidx/car/app/serialization/Bundleable;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #298 = MethodHandle       6:#299        // REF_invokeStatic androidx/car/app/AppManager.lambda$dismissAlert$4:(ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #299 = Methodref          #4.#300       // androidx/car/app/AppManager.lambda$dismissAlert$4:(ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #300 = NameAndType        #271:#272     // lambda$dismissAlert$4:(ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #301 = MethodHandle       6:#302        // REF_invokeStatic androidx/car/app/AppManager.lambda$openMicrophone$5:(Landroidx/car/app/media/OpenMicrophoneRequest;Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  #302 = Methodref          #4.#303       // androidx/car/app/AppManager.lambda$openMicrophone$5:(Landroidx/car/app/media/OpenMicrophoneRequest;Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  #303 = NameAndType        #266:#267     // lambda$openMicrophone$5:(Landroidx/car/app/media/OpenMicrophoneRequest;Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  #304 = MethodType         #305          //  (Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  #305 = Utf8               (Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  #306 = MethodType         #171          //  (Landroid/location/Location;)V
+  #307 = MethodHandle       7:#308        // REF_invokeSpecial androidx/car/app/AppManager.lambda$new$7:(Landroid/location/Location;)V
+  #308 = Methodref          #4.#309       // androidx/car/app/AppManager.lambda$new$7:(Landroid/location/Location;)V
+  #309 = NameAndType        #259:#171     // lambda$new$7:(Landroid/location/Location;)V
+  #310 = MethodHandle       6:#311        // REF_invokeStatic androidx/car/app/AppManager.lambda$new$6:(Landroid/location/Location;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #311 = Methodref          #4.#312       // androidx/car/app/AppManager.lambda$new$6:(Landroid/location/Location;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #312 = NameAndType        #261:#262     // lambda$new$6:(Landroid/location/Location;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  #313 = MethodHandle       6:#314        // REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #314 = Methodref          #315.#316     // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #315 = Class              #317          // java/lang/invoke/LambdaMetafactory
+  #316 = NameAndType        #318:#319     // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #317 = Utf8               java/lang/invoke/LambdaMetafactory
+  #318 = Utf8               metafactory
+  #319 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #320 = Utf8               InnerClasses
+  #321 = Class              #322          // androidx/car/app/IAppManager$Stub
+  #322 = Utf8               androidx/car/app/IAppManager$Stub
+  #323 = Class              #324          // androidx/car/app/IAppManager
+  #324 = Utf8               androidx/car/app/IAppManager
+  #325 = Utf8               Stub
+  #326 = Class              #327          // androidx/annotation/RestrictTo$Scope
+  #327 = Utf8               androidx/annotation/RestrictTo$Scope
+  #328 = Class              #329          // androidx/annotation/RestrictTo
+  #329 = Utf8               androidx/annotation/RestrictTo
+  #330 = Utf8               Scope
+  #331 = Class              #332          // java/lang/invoke/MethodHandles$Lookup
+  #332 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #333 = Class              #334          // java/lang/invoke/MethodHandles
+  #334 = Utf8               java/lang/invoke/MethodHandles
+  #335 = Utf8               Lookup
+{
+  public void setSurfaceCallback(androidx.car.app.SurfaceCallback);
+    descriptor: (Landroidx/car/app/SurfaceCallback;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=5, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #3                  // Field mHostDispatcher:Landroidx/car/app/HostDispatcher;
+         4: ldc           #11                 // String app
+         6: ldc           #13                 // String setSurfaceListener
+         8: aload_0
+         9: aload_1
+        10: invokedynamic #15,  0             // InvokeDynamic #0:dispatch:(Landroidx/car/app/AppManager;Landroidx/car/app/SurfaceCallback;)Landroidx/car/app/HostCall;
+        15: invokevirtual #19                 // Method androidx/car/app/HostDispatcher.dispatch:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+        18: return
+      LineNumberTable:
+        line 93: 0
+        line 101: 18
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      19     0  this   Landroidx/car/app/AppManager;
+            0      19     1 surfaceCallback   Landroidx/car/app/SurfaceCallback;
+    RuntimeInvisibleAnnotations:
+      0: #222(#223=[s#224])
+        android.annotation.SuppressLint(
+          value=["ExecutorRegistration"]
+        )
+    RuntimeVisibleTypeAnnotations:
+      0: #225(): METHOD_FORMAL_PARAMETER, param_index=0
+        org.jspecify.annotations.Nullable
+
+  public void invalidate();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #3                  // Field mHostDispatcher:Landroidx/car/app/HostDispatcher;
+         4: ldc           #11                 // String app
+         6: ldc           #24                 // String invalidate
+         8: invokedynamic #26,  0             // InvokeDynamic #1:dispatch:()Landroidx/car/app/HostCall;
+        13: invokevirtual #19                 // Method androidx/car/app/HostDispatcher.dispatch:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+        16: return
+      LineNumberTable:
+        line 110: 0
+        line 117: 16
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      17     0  this   Landroidx/car/app/AppManager;
+
+  public void showToast(java.lang.CharSequence, int);
+    descriptor: (Ljava/lang/CharSequence;I)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=5, locals=3, args_size=3
+         0: aload_1
+         1: invokestatic  #29                 // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+         4: pop
+         5: aload_0
+         6: getfield      #3                  // Field mHostDispatcher:Landroidx/car/app/HostDispatcher;
+         9: ldc           #11                 // String app
+        11: ldc           #35                 // String showToast
+        13: aload_1
+        14: iload_2
+        15: invokedynamic #37,  0             // InvokeDynamic #2:dispatch:(Ljava/lang/CharSequence;I)Landroidx/car/app/HostCall;
+        20: invokevirtual #19                 // Method androidx/car/app/HostDispatcher.dispatch:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+        23: return
+      LineNumberTable:
+        line 128: 0
+        line 129: 5
+        line 136: 23
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      24     0  this   Landroidx/car/app/AppManager;
+            0      24     1  text   Ljava/lang/CharSequence;
+            0      24     2 duration   I
+    RuntimeVisibleTypeAnnotations:
+      0: #211(): METHOD_FORMAL_PARAMETER, param_index=0
+        org.jspecify.annotations.NonNull
+
+  public void showAlert(androidx.car.app.model.Alert);
+    descriptor: (Landroidx/car/app/model/Alert;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=4, args_size=2
+         0: aload_1
+         1: invokestatic  #29                 // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+         4: pop
+         5: aload_1
+         6: invokestatic  #40                 // Method androidx/car/app/serialization/Bundleable.create:(Ljava/lang/Object;)Landroidx/car/app/serialization/Bundleable;
+         9: astore_2
+        10: goto          25
+        13: astore_3
+        14: new           #48                 // class java/lang/IllegalArgumentException
+        17: dup
+        18: ldc           #50                 // String Serialization failure
+        20: aload_3
+        21: invokespecial #52                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;Ljava/lang/Throwable;)V
+        24: athrow
+        25: aload_0
+        26: getfield      #3                  // Field mHostDispatcher:Landroidx/car/app/HostDispatcher;
+        29: ldc           #11                 // String app
+        31: ldc           #56                 // String showAlert
+        33: aload_2
+        34: invokedynamic #58,  0             // InvokeDynamic #3:dispatch:(Landroidx/car/app/serialization/Bundleable;)Landroidx/car/app/HostCall;
+        39: invokevirtual #19                 // Method androidx/car/app/HostDispatcher.dispatch:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+        42: return
+      Exception table:
+         from    to  target type
+             5    10    13   Class androidx/car/app/serialization/BundlerException
+      LineNumberTable:
+        line 156: 0
+        line 160: 5
+        line 163: 10
+        line 161: 13
+        line 162: 14
+        line 165: 25
+        line 172: 42
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           10       3     2 bundle   Landroidx/car/app/serialization/Bundleable;
+           14      11     3     e   Landroidx/car/app/serialization/BundlerException;
+            0      43     0  this   Landroidx/car/app/AppManager;
+            0      43     1 alert   Landroidx/car/app/model/Alert;
+           25      18     2 bundle   Landroidx/car/app/serialization/Bundleable;
+      StackMapTable: number_of_entries = 2
+        frame_type = 77 /* same_locals_1_stack_item */
+          stack = [ class androidx/car/app/serialization/BundlerException ]
+        frame_type = 252 /* append */
+          offset_delta = 11
+          locals = [ class androidx/car/app/serialization/Bundleable ]
+    RuntimeVisibleAnnotations:
+      0: #237(#223=I#238)
+        androidx.car.app.annotations.RequiresCarApi(
+          value=5
+        )
+    RuntimeVisibleTypeAnnotations:
+      0: #211(): METHOD_FORMAL_PARAMETER, param_index=0
+        org.jspecify.annotations.NonNull
+
+  public void dismissAlert(int);
+    descriptor: (I)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #3                  // Field mHostDispatcher:Landroidx/car/app/HostDispatcher;
+         4: ldc           #11                 // String app
+         6: ldc           #61                 // String dismissAlert
+         8: iload_1
+         9: invokedynamic #63,  0             // InvokeDynamic #4:dispatch:(I)Landroidx/car/app/HostCall;
+        14: invokevirtual #19                 // Method androidx/car/app/HostDispatcher.dispatch:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)V
+        17: return
+      LineNumberTable:
+        line 184: 0
+        line 191: 17
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      18     0  this   Landroidx/car/app/AppManager;
+            0      18     1 alertId   I
+    RuntimeVisibleAnnotations:
+      0: #237(#223=I#238)
+        androidx.car.app.annotations.RequiresCarApi(
+          value=5
+        )
+
+  public androidx.car.app.media.OpenMicrophoneResponse openMicrophone(androidx.car.app.media.OpenMicrophoneRequest);
+    descriptor: (Landroidx/car/app/media/OpenMicrophoneRequest;)Landroidx/car/app/media/OpenMicrophoneResponse;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=4, locals=3, args_size=2
+         0: aload_0
+         1: getfield      #3                  // Field mHostDispatcher:Landroidx/car/app/HostDispatcher;
+         4: ldc           #11                 // String app
+         6: ldc           #66                 // String openMicrophone
+         8: aload_1
+         9: invokedynamic #68,  0             // InvokeDynamic #5:dispatch:(Landroidx/car/app/media/OpenMicrophoneRequest;)Landroidx/car/app/HostCall;
+        14: invokevirtual #71                 // Method androidx/car/app/HostDispatcher.dispatchForResult:(Ljava/lang/String;Ljava/lang/String;Landroidx/car/app/HostCall;)Ljava/lang/Object;
+        17: checkcast     #75                 // class androidx/car/app/media/OpenMicrophoneResponse
+        20: areturn
+        21: astore_2
+        22: ldc           #79                 // String CarApp
+        24: ldc           #81                 // String Error getting microphone bytes from host
+        26: aload_2
+        27: invokestatic  #83                 // Method android/util/Log.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+        30: pop
+        31: aconst_null
+        32: areturn
+      Exception table:
+         from    to  target type
+             0    20    21   Class android/os/RemoteException
+      LineNumberTable:
+        line 196: 0
+        line 210: 21
+        line 211: 22
+        line 212: 31
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           22      11     2     e   Landroid/os/RemoteException;
+            0      33     0  this   Landroidx/car/app/AppManager;
+            0      33     1 request   Landroidx/car/app/media/OpenMicrophoneRequest;
+      StackMapTable: number_of_entries = 1
+        frame_type = 85 /* same_locals_1_stack_item */
+          stack = [ class android/os/RemoteException ]
+    RuntimeInvisibleAnnotations:
+      0: #244(#223=[e#245.#246])
+        androidx.annotation.RestrictTo(
+          value=[Landroidx/annotation/RestrictTo$Scope;.LIBRARY_GROUP]
+        )
+    RuntimeVisibleTypeAnnotations:
+      0: #225(): METHOD_RETURN
+        org.jspecify.annotations.Nullable
+      1: #211(): METHOD_FORMAL_PARAMETER, param_index=0
+        org.jspecify.annotations.NonNull
+}
+SourceFile: "AppManager.java"
+BootstrapMethods:
+  0: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #284 (Ljava/lang/Object;)Ljava/lang/Object;
+      #285 REF_invokeSpecial androidx/car/app/AppManager.lambda$setSurfaceCallback$0:(Landroidx/car/app/SurfaceCallback;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+      #288 (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  1: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #284 (Ljava/lang/Object;)Ljava/lang/Object;
+      #289 REF_invokeStatic androidx/car/app/AppManager.lambda$invalidate$1:(Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+      #288 (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  2: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #284 (Ljava/lang/Object;)Ljava/lang/Object;
+      #292 REF_invokeStatic androidx/car/app/AppManager.lambda$showToast$2:(Ljava/lang/CharSequence;ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+      #288 (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  3: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #284 (Ljava/lang/Object;)Ljava/lang/Object;
+      #295 REF_invokeStatic androidx/car/app/AppManager.lambda$showAlert$3:(Landroidx/car/app/serialization/Bundleable;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+      #288 (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  4: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #284 (Ljava/lang/Object;)Ljava/lang/Object;
+      #298 REF_invokeStatic androidx/car/app/AppManager.lambda$dismissAlert$4:(ILandroidx/car/app/IAppHost;)Ljava/lang/Object;
+      #288 (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+  5: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #284 (Ljava/lang/Object;)Ljava/lang/Object;
+      #301 REF_invokeStatic androidx/car/app/AppManager.lambda$openMicrophone$5:(Landroidx/car/app/media/OpenMicrophoneRequest;Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+      #304 (Landroidx/car/app/IAppHost;)Landroidx/car/app/media/OpenMicrophoneResponse;
+  6: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #306 (Landroid/location/Location;)V
+      #307 REF_invokeSpecial androidx/car/app/AppManager.lambda$new$7:(Landroid/location/Location;)V
+      #306 (Landroid/location/Location;)V
+  7: #313 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #284 (Ljava/lang/Object;)Ljava/lang/Object;
+      #310 REF_invokeStatic androidx/car/app/AppManager.lambda$new$6:(Landroid/location/Location;Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+      #288 (Landroidx/car/app/IAppHost;)Ljava/lang/Object;
+InnerClasses:
+  public static abstract #325= #321 of #323; // Stub=class androidx/car/app/IAppManager$Stub of class androidx/car/app/IAppManager
+  public static final #330= #326 of #328; // Scope=class androidx/annotation/RestrictTo$Scope of class androidx/annotation/RestrictTo
+  public static final #335= #331 of #333; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
